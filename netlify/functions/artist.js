@@ -1,3 +1,4 @@
+const fetch = require("node-fetch");
 exports.handler = async function(event) {
     try {
         const name = event.queryStringParameters.name;
